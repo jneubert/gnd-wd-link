@@ -1,7 +1,7 @@
 #SingleInstance force
 #Warn
 
-; Open a browser window with the Wikidata item for the select GND ID
+; Open a browser window with the Wikidata item for the selected GND ID
 
 
 ; Open URL with the default browser defined in Windows
