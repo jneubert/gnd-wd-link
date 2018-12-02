@@ -16,12 +16,12 @@ OpenURL(u) {
 ; Copies the selected text to the Windows clipboard, adds it to a
 ; resolver URL and opens that URL
 
-; Currently resolves to the Sqid Wikidata browser
+; A different viewer can be called via &project=osm|reasonator|scholia|sqid|viaf
 
 ; hotkey ctrl-shift-h 
 ^+h::
   Send, ^c
-  url = https://tools.wmflabs.org/wikidata-todo/resolver.php?project=sqid&lang=de&prop=P227&value=%Clipboard%
+  url = https://tools.wmflabs.org/wikidata-todo/resolver.php?lang=de&prop=P227&value=%Clipboard%
   OpenURL(url)
   Return
   
